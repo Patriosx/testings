@@ -1,0 +1,22 @@
+{
+  "name": "curso-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "vitest": "^0.24.5"
+  },
+  "eslintConfig": {
+    "extends":"./node_modules/standard/eslintrc.json",
+    "semi":["error",1]
+  }
+}
